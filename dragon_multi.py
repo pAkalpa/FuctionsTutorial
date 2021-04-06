@@ -13,7 +13,7 @@ def display_intro():
 def choose_cave():
     cave = ''
     while cave != '1' and cave != '2' and cave != '3' and cave != '4':
-        print('Which cave will you go into? (1:4)')
+        print('Which cave will you go into? (1-4)')
         cave = str(input())
     return cave
 
